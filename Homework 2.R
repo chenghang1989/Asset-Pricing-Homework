@@ -258,6 +258,7 @@ EP_individual_mon <- EP_individual_mon %>%
   .[,':='(ep        = matchearnings * as.numeric(ratio) / as.numeric(floatingvalue),
 		  ep_recent = recent_earnings / as.numeric(totalvalue))]
 
+# 数据地址：https://share.weiyun.com/f9SE2yLX
 # EP_individual_mon <- readRDS('D:/Academic/academic/Assetpricing/Output/EP_individual_mon2023.RDS')
 
 # Size and Value Factors -------------------------------------------------------------------------------
